@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
+    title: "Comfy Store - Ecommerce for furniture",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    img: "/cf.png",
+    iconLists: ["/re.svg", "/tail.svg", "/redux.png",],
+    link: "https://comfystorenik.netlify.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "DestinyEuro - Study Abroad",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    img: "/de.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/cloud.png"],
+    link: "https://destinyeuro.com/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Light Charity - A Blood Bank Charity ",
+    des: "A REAL Software-as-a-Service app for blood banks having features like nearby hospital search,blood bank inventory,donor adding feature and many more. .",
+    img: "/lc.png",
+    iconLists: ["/re.svg", "/tail.svg", "/node.png", "/mongo.png", "/maps.png","/cloud.png"],
+    link: "https://light-charity-v3.onrender.com/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Authentication kit(on going..)",
+    des: " this Kit is a robust and scalable authentication solution for Next.js applications, providing secure user registration, login, and session management,two factor authentication with customizable providers and role-based access control ",
+    img: "/kit.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg","auth.png" ],
+    link: "https://github.com/nikhilmahato21",
   },
 ];
 
@@ -178,26 +178,27 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
+  
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Led the dev of a web app for a client, from initial concept to building API's and designing frontend to deployment .",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    id: 3,
+    title: "Full Stack Developer",
+    desc: "Developed and maintained user-facing features using modern frontend & Backend technologies also developed Api's using node and express",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
+  },
+  {
+    id: 4,
+    title: "Mobile App Dev ",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
   },
 ];
 
