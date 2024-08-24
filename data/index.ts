@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -73,7 +75,7 @@ export const projects = [
   {
     id: 1,
     title: "Comfy Store - Ecommerce for furniture",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Comfy Store is an e-commerce platform designed for furniture enthusiasts, offering a seamless shopping experience.",
     img: "/cf.png",
     iconLists: ["/re.svg", "/tail.svg", "/redux.png",],
     link: "https://comfystorenik.netlify.app/",
@@ -81,7 +83,7 @@ export const projects = [
   {
     id: 2,
     title: "DestinyEuro - Study Abroad",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "DestinyEuro is a study abroad platform with a sleek and user-friendly UI, designed to make the process of exploring and applying to international universities effortless.",
     img: "/de.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/cloud.png"],
     link: "https://destinyeuro.com/",
@@ -107,34 +109,29 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
+    name: "Mrinal Dawn",
+    title: "Founder of Destiny Euro",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Nikhil was a delight! His professionalism, swift responses, and commitment to excellence shone through every aspect of our collaboration. Nikhil's passion for innovative solutions is truly remarkable. If you're looking to transform your online presence and amplify your brand, Nikhil is the perfect collaborator.",
+    name: "Guru Sandhu",
+    title: "Director of Light Charity ",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
+    name: "Mrinal Dawn",
+    title: "Founder of Destiny Euro",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Nikhil was a delight! His professionalism, swift responses, and commitment to excellence shone through every aspect of our collaboration. Nikhil's passion for innovative solutions is truly remarkable. If you're looking to transform your online presence and amplify your brand, Nikhil is the perfect collaborator.",
+    name: "Guru Sandhu",
+    title: "Director of Light Charity ",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+  
 ];
 
 export const companies = [
@@ -206,13 +203,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/nikhilmahato21",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link:"https://x.com/nikhilmahato21",
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/nikhilmahato21/",
   },
 ];
